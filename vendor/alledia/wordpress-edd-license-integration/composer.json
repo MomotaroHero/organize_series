@@ -1,0 +1,52 @@
+{
+  "name": "alledia/wordpress-edd-license-integration",
+  "type": "library",
+  "description": "EDD license integration library for WordPress plugins",
+  "keywords": [
+    "edd",
+    "license",
+    "wordpress"
+  ],
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "PublishPress",
+      "email": "help@publishpress.com"
+    },
+    {
+      "name": "Alledia",
+      "email": "help@alledia.com"
+    },
+    {
+      "name": "Anderson Grudtner Martins",
+      "email": "anderson@grudtner.me",
+      "homepage": "http://anderson.grudtner.me",
+      "role": "Lead Developer"
+    }
+  ],
+  "config": {
+    "preferred-install": "dist"
+  },
+  "autoload": {
+    "psr-4": {
+      "PublishPress\\EDD_License\\Core\\": "src/core/"
+    }
+  },
+  "require": {
+    "php": ">=5.6.20",
+    "pimple/pimple": "~3.2",
+    "alledia/edd-sl-plugin-updater": "^1.6",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "lucatume/wp-browser": "^2.4",
+    "codeception/module-asserts": "^1.2",
+    "codeception/module-phpbrowser": "^1.0",
+    "codeception/module-webdriver": "^1.0",
+    "codeception/module-db": "^1.0",
+    "codeception/module-filesystem": "^1.0",
+    "codeception/module-cli": "^1.0",
+    "codeception/util-universalframework": "^1.0",
+    "codeception/domain-assert": "^1.0"
+  }
+}
