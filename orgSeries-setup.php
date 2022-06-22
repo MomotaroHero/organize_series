@@ -323,7 +323,7 @@ class orgSeries {
 			'series_toc_title' => __('All Series','organize-series'),
 		//new template options
 			'orgseries_api' => '',
-			'series_post_list_template' => '<div class="seriesbox"><div class="center">%series_icon_linked%<br />%series_title_linked%</div><ul class="serieslist-ul">%post_title_list%</ul></div>%postcontent%',
+			'series_post_list_template' => '<div class="seriesbox"><div class="center">%series_icon_linked%<br />%series_title_linked%</div><ol class="serieslist-ol">%post_title_list%</ol></div>%postcontent%',
 			'series_post_list_post_template' => '<li class="serieslist-li">%post_title_linked%</li>',
 			'series_post_list_currentpost_template' => '<li class="serieslist-li-current">%post_title%</li>',
 			'series_meta_template' => '<div class="seriesmeta">' . _x('This entry is part %series_part% of %total_posts_in_series% in the series ','leave the %tokens% as is when translating','organize-series') . '%series_title_linked%</div>%postcontent%',

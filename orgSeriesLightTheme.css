@@ -29,7 +29,7 @@
 .seriesbox a,
 .seriesmeta a {
 	color: #444;
-	text-decoration: underline;
+	text-decoration: none;
 }
 .seriesbox a:hover,
 .seriesbox a:focus,
@@ -42,4 +42,10 @@
 
 .series-nav-left {
     margin-right: 20px;
+}
+
+li.serieslist-li-current {
+	color: #db2b04;
+	margin: 0;
+	padding: 0;
 }
